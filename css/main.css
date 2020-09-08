@@ -291,6 +291,16 @@ position: absolute;
 
   display: block;
 }
+.subtitle {
+  font-family: Poppins-Medium;
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+
+  display: block;
+}
 
 
 /*------------------------------------------------------------------
@@ -777,7 +787,7 @@ cursor: pointer;
 .confirm-btn {
 cursor: pointer;
   font-family: Poppins-Medium;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   line-height: 1;
 

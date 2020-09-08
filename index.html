@@ -2,13 +2,18 @@
 <html lang="en">
 
 <head>
-	<title>TEMPLATE
+	<title>OS4LIFE FEAR PONG
 	</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--
-	<base href="https://spmnj.dev/template/">
-	-->
+	<meta property="og:title" content="OS4LIFE FEAR PONG" />
+	<meta property="og:description" 
+  content="Spice up your game of beer pong with these fun dares!" />
+	<meta property="og:type" content="image/png" />
+	<meta property="og:url" content="https://spmnj.dev/os4life" />
+	<meta property="og:image" content="https://spmnj.dev/os4life/images/game.png"/>
+	<base href="https://spmnj.dev/os4life/">
+
 	<!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
 	<!--===============================================================================================-->
@@ -33,25 +38,61 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="js/main.js"></script>
 	<script>document.getElementsByTagName("html")[0].className += " js";</script>
-  	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!--===============================================================================================-->
 </head>
 
 <body>
 	<div class="limiter">
-		<div class="content-container" style="background-image: url('https://www.towson.edu/visit/images/tu-aerial-view-m.jpg');">
+		<div class="content-container"
+			style="background-image: url('https://image1.apartmentfinder.com/i2/jD0B0aXrMgiI6OdN7jcVKlK5XJUtkWfHu5-yjpa4sXg/111/university-village-towson-student-housing-towson-md-building.jpg');">
 			<div class="wrap-content">
 				<div id="content">
-					<div id="content">
-						<div class="logo">
-							<img src="https://webapps.towson.edu/media/towsonu-logo-horiz-black2019.png" style="max-width: 100%;
+					<div class="logo">
+						<img src="https://cdn131.picsart.com/321740430274211.png?type=webp&to=min&r=1280" style="max-width: 150px;
 							height: auto;" alt="">
+					</div>
+					<span class="title p-t-27">
+						OS4LIFE Fear Pong
+					</span>
+					<span class="subtitle  p-b-34">
+						🔥 Spice Up Bear Pong 🔥
+					</span>
+					<span id="get-button" class="container-search-from-btn">
+						<div id="get-button-text" class="search-form-btn ">
+							Recieve Punishment
 						</div>
-						<span class="title p-b-34 p-t-27">
-							Website
-						</span>
-						<div class="content-loading">
-							<img src="images/Rolling-1s-200px.svg" alt="" height="100px" width="100px">
+						<div class="btn-loading" style="display: none">
+							<img src="images/Rolling-red.svg" alt="" height="40px" width="40px">
+						</div>
+					</span>
+					<br>
+					<span class="container-search-from-btn">
+						<a class="search-form-btn" href="howtoplay.md">
+							How To Play
+						</a>
+					</span>
+					<br>
+					<span class="container-search-from-btn">
+						<a class="search-form-btn" href="https://forms.gle/YPBjL53GSQhNw9sK9">
+							Suggest new Dares
+						</a>
+					</span>
+				</div>
+			</div>
+			<div id="popup" style="display: none">
+				<div id="confirm-passes" style="display: none">
+					<div class="popup-title">
+						YOUR PUNISHMENT
+					</div>
+					<div id="dialoge" class="m-t-10 m-b-10 notice p-l-5">
+						If your reading this you shouldn't be please reload.
+					</div>
+					<div class="confirm-options">
+						Do you accept the challenge?
+						<div class="container-confirm-btn">
+							<div id="confirm" class="confirm-btn">ACCEPT</div>
+							<div id="cancel" class="confirm-btn">TAKE SHOTS</div>
 						</div>
 					</div>
 				</div>
